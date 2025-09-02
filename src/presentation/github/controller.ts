@@ -8,8 +8,6 @@ export class GithubController {
 
 		const payload = req.body;
 
-		console.log({ githubEvent });
-
 		res.status(202).send('Accepted');
 	};
 }
